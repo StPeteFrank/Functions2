@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Functions2.Classes;
+using System;
 
 namespace Functions2
 {
@@ -6,7 +7,9 @@ namespace Functions2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Worldzzzz!");
+            Console.WriteLine(new LargestInArray().Largest(new int[] { 2, 1, 4, 7, 10, 3, -7 }));
+
+            Console.ReadLine();
         }
     }
 }
