@@ -12,6 +12,7 @@ namespace Functions2
             Console.WriteLine(new SumArrayForLoop().SumArray(new int[] { 10, 20, 30, 40 }));
             Console.WriteLine(new SumOddArrayForLoop().SumOddArray(new int[] { 2, 0, 3, 5, 7 }));
             Console.WriteLine(new SumArrayForEach().SumForEach(new int[] { 20, 40, 60, 80 }));
+            Console.WriteLine(new SquareSumArray().SquareSum(new int[] { 2, 4, 5 }));
 
             Console.ReadLine();
         }
