@@ -13,7 +13,7 @@ namespace Functions2
             Console.WriteLine(new SumOddArrayForLoop().SumOddArray(new int[] { 2, 0, 3, 5, 7 }));
             Console.WriteLine(new SumArrayForEach().SumForEach(new int[] { 20, 40, 60, 80 }));
             Console.WriteLine(new SquareSumArray().SquareSum(new int[] { 2, 4, 5 }));
-            //Console.WriteLine(new SumNestedForLoop().SumNested(new int[][] { { 2, 4, 6 }, { 1, 3, 5 } }, { { 8, 10, 12 }, { 7, 9, 11 } }));
+            Console.WriteLine(new SumNestedForLoop().SumNested(new int[][] { { 2, 4, 6 }, { 1, 3, 5 } }, { { 8, 10, 12 }, { 7, 9, 11 } }));
 
             Console.ReadLine();
         }
