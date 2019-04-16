@@ -7,6 +7,7 @@ namespace TestForVSInstallGit
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.ReadLine();
         }
     }
 }
