@@ -11,8 +11,8 @@ namespace Functions2
             Console.WriteLine(new SmallestInArray().Smallest(new int[] { 9, 3, 0, -10, 8, -7, 12 }));
             Console.WriteLine(new SumArrayForLoop().SumArray(new int[] { 100, 200, 300, 400 }));
             Console.WriteLine(new SumOddArrayForLoop().SumOddArray(new int[] { 10, -1, 6, 3, 5, 7, 0, 1 }));
-            // Console.WriteLine(new SumArrayForEach().SumForEach(new int[] { 20, 40, 60, 80 }));
             Console.WriteLine(new SumArrayForEach().SumForEach(new int[] { 200, 400, 600, 800 }));
+            //Console.WriteLine(new SquareSumArray().SquareSum(new int[] { 2, 4, 5 }));
             Console.WriteLine(new SquareSumArray().SquareSum(new int[] { 2, 4, 5 }));
 
             //Console.WriteLine(new SumNestedForLoop().SumNested(new int [][] { new int[] { 2, 4, 6, 8, 9, 10, 11 }, new int[] { 1, 3, 5 } })); 
