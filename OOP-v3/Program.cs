@@ -12,6 +12,11 @@ namespace OOP_v3
             address.StreetName = "Meridain Ave";
             address.LocationName = "South Beach Apt";
             Console.WriteLine(address);
+            //
+            var oldBoat = new Boat("Trirton", "Outboard Engine type");
+            oldBoat.Buy("Frank");
+            Console.WriteLine(oldBoat);
+            //
 
             Console.ReadLine();
         }

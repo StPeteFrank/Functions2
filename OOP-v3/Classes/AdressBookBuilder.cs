@@ -9,9 +9,9 @@ namespace OOP_v3.Classes
         public int ActualNumber { get; set; }  //Properties or attributes of a class.
         public string StreetName { get; set; }
         public string LocationName { get; set; }
-        public override string ToString()
+        public override string ToString()  
         {
-            return  $"{LocationName} is located at {ActualNumber} {StreetName}.";
+            return $"{LocationName} is located at {ActualNumber} {StreetName}.";
         }
 
     }
