@@ -17,6 +17,12 @@ namespace OOP_v3
             oldBoat.Buy("Frank");
             Console.WriteLine(oldBoat);
             //
+            var horse = new Animal {Name = "Mr. Ed", FavoriteFood = "Grass",Greeting = "Hello Wilbur"}; //No constructor in class so we set out here.
+            horse.Speak();
+            horse.Eat();
+            
+
+
 
             Console.ReadLine();
         }
