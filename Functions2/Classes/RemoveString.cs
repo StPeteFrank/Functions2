@@ -6,7 +6,7 @@ namespace Functions2.Classes
 {
     public class RemoveString
     {
-        public string Remove(string a)
+        public string TakeOutString(string a)
         {
             return a.Replace("!", "") + "!";
         }

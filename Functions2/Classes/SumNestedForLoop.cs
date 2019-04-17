@@ -7,12 +7,12 @@ namespace Functions2.Classes
 {
     public class SumNestedForLoop
     {
-        public double SumNested(int [][] a)
+        public long SumNested(int[][] a)
         {
-            int sum = 0;
-            for(int i = 0; i < a.Length; i++)
+            long sum = 0;
+            for (int i = 0; i < a.Length; i++)
             {
-                for(int j = 0; j < a[i].Length; i++)
+                for (int j = 0; j < a[i].Length; i++)
                 {
                     sum += a[i][j];
                 }
@@ -20,10 +20,10 @@ namespace Functions2.Classes
             return sum;
         }
 
-       /* public static int SumNested(int[][] a)
-        {
-            return a.Sum(x => x.Sum());
-        }*/
+         /*public static int SumNested(int[][] a)
+         {
+             return a.Sum(x => x.Sum());
+         }*/
 
 
     }
