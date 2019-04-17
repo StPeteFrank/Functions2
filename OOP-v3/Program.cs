@@ -20,7 +20,10 @@ namespace OOP_v3
             var horse = new Animal {Name = "Mr. Ed", FavoriteFood = "Grass",Greeting = "Hello Wilbur"}; //No constructor in class so we set out here.
             horse.Speak();
             horse.Eat();
-            
+            //
+            var horse2 = new Horse { Name = "Clippity Clop" };
+            horse2.Speak();
+            horse2.Eat();
 
 
 

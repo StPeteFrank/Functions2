@@ -16,7 +16,7 @@ namespace OOP_v3
         }
         public void Eat()
         {
-            Console.WriteLine($"My favorite food is{FavoriteFood}.");
+            Console.WriteLine($"My favorite food is {FavoriteFood}.");
         }
 
     }
