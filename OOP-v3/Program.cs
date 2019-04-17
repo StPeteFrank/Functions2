@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOP_v3.Classes;
+using System;
 
 namespace OOP_v3
 {
@@ -6,7 +7,13 @@ namespace OOP_v3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var address = new AddressBookBuilder();
+            address.ActualNumber = 1830;
+            address.StreetName = "Meridain Ave";
+            address.LocationName = "South Beach Apt";
+            Console.WriteLine(address);
+
+            Console.ReadLine();
         }
     }
 }

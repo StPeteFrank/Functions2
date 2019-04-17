@@ -6,4 +6,8 @@
     <RootNamespace>OOP_v3</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
 </Project>
