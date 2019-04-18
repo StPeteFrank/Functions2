@@ -24,7 +24,7 @@ namespace OOP_v3
             var horse2 = new Horse { Name = "Clippity Clop" };
             horse2.Speak();
             horse2.Eat();
-
+            //
 
 
             Console.ReadLine();
