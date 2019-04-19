@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Functions2.Classes
@@ -19,6 +20,5 @@ namespace Functions2.Classes
             return sum;
         }
     }
-
-
+    
 }
