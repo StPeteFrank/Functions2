@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Functions2.Classes
 {
-    public class SumNestedForLoop
+    /*public class SumNestedForLoop
     {
         public int SumNested(int [][] a)
         {
@@ -20,6 +20,22 @@ namespace Functions2.Classes
             return sum;
         }
 
+    }*/
+
+    public class SumNestedForLoop
+    {
+        public int NestedForLoop(int [][] a)
+        {
+            int sum = 0;
+            for (int first = 0; first < a.Length; first++)
+            {
+                for(int j = 0; j < a[first].Length; j++)
+                {
+                    sum += a[first][j];
+                }
+            }
+            return sum;
+        }
     }
 }
 
