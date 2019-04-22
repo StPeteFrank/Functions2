@@ -10,7 +10,7 @@ namespace Functions2
         public int SumArray(int [] a)
         {
             int sum = 0;
-            for(int i = 0; i < a.Length; i++)
+            for (int i = 0; i < a.Length; i++)
             {
                 sum += a[i];
             }
