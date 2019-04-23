@@ -9,8 +9,8 @@ namespace Functions2
         {
             Console.WriteLine(new LargestInArray().Largest(new int[] { 5, 0, -3, 11, 9, -14 }));
             Console.WriteLine(new SmallestInArray().Smallest(new int[] { 0, -2, 11, 23, -9, -10, 4 }));
-            //Console.WriteLine(new SmallestInArray().Smallest(new int[] { 2, 0, 9, 12, -3, 16, -9, 100 }));
-            Console.WriteLine(new SumArrayForLoop().SumArray(new int[] { 100, 200, 300, 400}));
+            //Console.WriteLine(new SumArrayForLoop().SumArray(new int[] { 100, 200, 300, 400}));
+            Console.WriteLine(new SumArrayForLoop().SumArray(new int[] { 100, 200, 300, 400 }));
             Console.WriteLine(new SumOddArrayForLoop().SumOddArray(new int[] { 9, 0, -3, 3, 12, 10, 5, 7, 100 }));
             Console.WriteLine(new SumArrayForEach().SumForEach(new int[] { 200, 400, 600, 800 }));
             Console.WriteLine(new SquareSumArray().SquareSum(new int[] { 2, 4, 5 }));
