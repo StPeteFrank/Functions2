@@ -12,7 +12,7 @@ namespace Functions2.Classes
             int b = a[0];
             for (int i = 0; i < a.Length; i++)
             {
-                if(b < a[i])
+                if (b < a[i])
                 {
                     b = a[i];
                 }
