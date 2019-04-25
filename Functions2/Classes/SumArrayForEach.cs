@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Functions2.Classes
 {
-    public class SumArrayForEach
+     public class SumArrayForEach
     {
         public int SumForEach(int [] a)
         {
@@ -15,7 +15,6 @@ namespace Functions2.Classes
             }
             return sum;
         }
-        
-        
     }
+
 }
