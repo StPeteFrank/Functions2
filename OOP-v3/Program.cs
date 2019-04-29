@@ -25,6 +25,9 @@ namespace OOP_v3
             horse2.Speak();
             horse2.Eat();
             //
+            var Betsy = new Cow();
+            Betsy.Speak();
+            Betsy.Eat();
 
 
             Console.ReadLine();

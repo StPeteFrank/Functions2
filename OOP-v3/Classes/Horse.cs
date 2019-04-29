@@ -7,7 +7,7 @@ namespace OOP_v3.Classes
     public class Horse : Animal
     {
         public bool DoesHaveRider { get; set; }
-        public int CoutOfHorseShoes { get; set; }
+        public int CountOfHorseShoes { get; set; }
 
         public Horse()
         {
@@ -17,8 +17,8 @@ namespace OOP_v3.Classes
 
         public int ShoeMyHorse()
         {
-            this.CoutOfHorseShoes = 4;
-            return this.CoutOfHorseShoes;
+            this.CountOfHorseShoes = 4;
+            return this.CountOfHorseShoes;
         }
     }
 }
