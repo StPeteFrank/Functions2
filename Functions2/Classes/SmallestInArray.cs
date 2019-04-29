@@ -10,12 +10,13 @@ namespace Functions2.Classes
         public int Smallest(int [] a)
         {
             int b = a[0];
-            for (int i = 0; i < a.Length; i++)
+            for(int i = 0; i < a.Length; i++)
             {
-                if (b > a[i])
+                if(b > a[i])
                 {
                     b = a[i];
                 }
+               
             }
             return b;
         }

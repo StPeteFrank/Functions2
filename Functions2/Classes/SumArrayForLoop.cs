@@ -12,7 +12,7 @@ namespace Functions2
             int sum = 0;
             for(int i = 0; i < a.Length; i++)
             {
-                sum += a[i]; 
+                sum += a[i];
             }
             return sum;
         }
