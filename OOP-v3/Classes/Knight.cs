@@ -6,7 +6,7 @@ namespace OOP_v3.Classes
 {
     public class Knight : Warrior
     {
-        public Knight() : base(new Sword())
+        public Knight() : base(new Sword())  //Injecting the dependency of Sword form IWeapon.
         {
 
         }

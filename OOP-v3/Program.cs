@@ -31,6 +31,14 @@ namespace OOP_v3
             Betsy.Eat();
             Betsy.GiveMilk();
             //
+            var lancelot = new Knight();
+            lancelot.Attack();
+
+            var legolas = new Archer();
+            legolas.Attack();
+
+            var merlin = new Wizard();
+            merlin.Attack();
 
 
             Console.ReadLine();
