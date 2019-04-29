@@ -1,5 +1,6 @@
 ﻿using OOP_v3.Classes;
 using System;
+using System.Collections.Generic;
 
 namespace OOP_v3
 {
@@ -32,14 +33,18 @@ namespace OOP_v3
             Betsy.GiveMilk();
             //
             var lancelot = new Knight();
-            lancelot.Attack();
-
+           
             var legolas = new Archer();
-            legolas.Attack();
+           
+            var merlin = new Wizard();        
+            //
+            var army = new List<Warrior>();
+            army.Add(lancelot);
+            army.Add(legolas);
+            army.Add(merlin);
 
-            var merlin = new Wizard();
-            merlin.Attack();
-
+            army.ForEach(fighter => fighter.Attack());
+            //
 
             Console.ReadLine();
         }
