@@ -8,6 +8,7 @@ namespace OOP_v3.Classes
     {
         int WingSpan { get; set; }
         int FlySpeed { get; set; }
+        int CurrentFlyingSpeed { get; set; }
 
         void FlapWings();
         void Glide();
