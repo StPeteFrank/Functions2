@@ -4,11 +4,11 @@ using System.Text;
 
 namespace OOP_v3.Classes
 {
-    public class Knight : Warrior, IAttacker
+    public class Knight : Warrior
     {
-        public void Attack()
+        public Knight() : base(new Sword())
         {
-            throw new NotImplementedException();
+
         }
     }
 }
