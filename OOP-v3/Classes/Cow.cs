@@ -11,5 +11,9 @@ namespace OOP_v3.Classes
             this.FavoriteFood = "grass";
             this.Greeting = "Moo";
         }
+        public void GiveMilk()
+        {
+            Console.WriteLine("I am giving milk.");
+;        }
     }
 }

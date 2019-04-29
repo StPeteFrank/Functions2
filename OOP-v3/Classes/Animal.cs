@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP_v3
 {
-    public class Animal
+    public abstract class Animal
     {
         public string Name { get; set; }
         public string Greeting { get; set; }
@@ -12,7 +12,7 @@ namespace OOP_v3
 
         public void Speak()
         {
-            Console.WriteLine($"{this.Greeting}.");
+            Console.WriteLine($"{this.Greeting}. My name is {this.Name}.");
         }
         public void Eat()
         {

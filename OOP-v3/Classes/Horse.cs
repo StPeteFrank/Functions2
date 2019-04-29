@@ -7,7 +7,7 @@ namespace OOP_v3.Classes
     public class Horse : Animal
     {
         public bool DoesHaveRider { get; set; }
-        public int CountOfHorseShoes { get; set; }
+        public int CountOfHorseShoes { get; set; } = 4;
 
         public Horse()
         {
@@ -15,10 +15,11 @@ namespace OOP_v3.Classes
             this.FavoriteFood = "Carrots";
         }
 
-        public int ShoeMyHorse()
+        public void ShoeMyHorse()
         {
-            this.CountOfHorseShoes = 4;
-            return this.CountOfHorseShoes;
+            Console.WriteLine($"I have {this.CountOfHorseShoes} horseshoes.");
+            /*this.CountOfHorseShoes = 4;
+            return this.CountOfHorseShoes;*/
         }
     }
 }
