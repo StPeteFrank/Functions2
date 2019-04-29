@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP_v3.Classes
 {
-    interface ICanFly
+    public interface ICanFly
     {
         int WingSpan { get; set; }
         int FlySpeed { get; set; }
