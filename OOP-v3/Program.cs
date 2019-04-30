@@ -33,9 +33,7 @@ namespace OOP_v3
             Betsy.GiveMilk();
             //
             var lancelot = new Knight();
-           
             var legolas = new Archer();
-           
             var merlin = new Wizard();        
             //
             var army = new List<Warrior>();
@@ -45,6 +43,8 @@ namespace OOP_v3
 
             army.ForEach(fighter => fighter.Attack());
             //
+            var pegasus1 = new Pegasus(40, 30);
+            Console.WriteLine(pegasus1);
 
             Console.ReadLine();
         }

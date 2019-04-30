@@ -12,6 +12,17 @@ namespace OOP_v3.Classes
         public int NumberOfShoes { get ; set ; }
         public int MaxSpeed { get ; set ; }
 
+        public override string ToString()
+        {
+            return $"The Pegasus has a run speed of {this.MaxSpeed} mph. It also has a fly speed of {this.CurrentFlyingSpeed} mph.";
+        }
+
+        public Pegasus(int maxSpeed, int currentFlySpeed)
+        {
+            MaxSpeed = maxSpeed;
+            CurrentFlyingSpeed = currentFlySpeed;
+        }
+
         public void DecreaseSpeed(int deccel)
         {
             this.MaxSpeed -= deccel * 2;
