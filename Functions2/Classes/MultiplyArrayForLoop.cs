@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Functions2.Classes
 {
-   /* public class MultiplyArrayForLoop
+    public class MultiplyArrayForLoop
     {
         public int MultiplyArray(int [] a)
         {
@@ -16,12 +16,12 @@ namespace Functions2.Classes
             }
             return b;
         }
-    }*/
-    public class MultiplyArrayForLoop
-    {
-        public int MultiplyArray(int [] a)
-        {
-            return a.Aggregate((b, c) => b * c);
-        }
     }
+    /*public class MultiplyArrayForLoop
+    {
+        public double MultiplyArray(double [] a)
+        {
+            return a.Aggregate((b, c) => b / c);
+        }
+    }*/
 }

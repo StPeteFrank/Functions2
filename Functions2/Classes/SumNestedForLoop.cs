@@ -23,6 +23,6 @@ namespace Functions2.Classes
             return sum;
         }
     }
-
+ 
 }
 
