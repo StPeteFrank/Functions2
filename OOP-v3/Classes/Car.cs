@@ -16,5 +16,9 @@ namespace OOP_v3.Classes
             Model = model;
             HorsePower = horsePower;
         }
+        public override string ToString()
+        {
+            return $"This is a {this.Make} {this.Model} and it has {this.HorsePower} bhp.";
+        }
     }
 }

@@ -49,6 +49,9 @@ namespace OOP_v3
             pegasus1.FlapWings(10);
             pegasus1.Glide(5);
             Console.WriteLine(pegasus1);
+            //
+            var car1 = new Car("Volks", "GTI", 210);
+            Console.WriteLine(car1);
 
             Console.ReadLine();
         }
