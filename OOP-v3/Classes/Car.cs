@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP_v3.Classes
 {
-    public class Car : IManageHP     //Inherit Interfaces for method use and easy object reuse.
+    public class Car : IManageHP , IManageCarValue    //Inherit Interfaces for method use and easy object reuse.
     {
         public string Make { get; set; }   //Set the properties.
         public string Model { get; set; }
@@ -31,6 +31,16 @@ namespace OOP_v3.Classes
         public void DecreaseHP(int decrease)
         {
             this.HorsePower -= decrease;
+        }
+
+        public void IncreaseValue(int increase)
+        {
+            this.CarValue += increase;
+        }
+
+        public void DecreaseValue(int decrease)
+        {
+            this.CarValue -= decrease;
         }
     }
 }
