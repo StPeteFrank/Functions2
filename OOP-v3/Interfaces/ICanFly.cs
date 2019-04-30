@@ -10,7 +10,7 @@ namespace OOP_v3.Classes
         int FlySpeed { get; set; }
         int CurrentFlyingSpeed { get; set; }
 
-        void FlapWings();
-        void Glide();
+        void FlapWings(int accel);
+        void Glide(int deccel);
     }
 }

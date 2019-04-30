@@ -13,12 +13,12 @@ namespace OOP_v3.Classes
         public int FlySpeed { get; set; }
         public int CurrentFlyingSpeed { get; set; }
 
-        public void FlapWings()
+        public void FlapWings(int accel)
         {
             this.CurrentFlyingSpeed += this.FlySpeed;
         }
 
-        public void Glide()
+        public void Glide(int deccel)
         {
             this.CurrentFlyingSpeed -= this.FlySpeed;
         }

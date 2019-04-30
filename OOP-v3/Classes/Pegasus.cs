@@ -8,7 +8,7 @@ namespace OOP_v3.Classes
     {
         public int WingSpan { get ; set ; }
         public int FlySpeed { get ; set ; }
-        public int CurrentFlyingSpeed { get ; set ; }
+        public int CurrentFlyingSpeed { get; set; } 
         public int NumberOfShoes { get ; set ; }
         public int MaxSpeed { get ; set ; }
 
@@ -25,22 +25,22 @@ namespace OOP_v3.Classes
 
         public void DecreaseSpeed(int deccel)
         {
-            this.MaxSpeed -= deccel * 2;
+            this.MaxSpeed -= deccel;
         }
 
-        public void FlapWings()
+        public void FlapWings(int accel)
         {
-            this.CurrentFlyingSpeed += this.FlySpeed * 2;
+            this.CurrentFlyingSpeed += accel;
         }
 
-        public void Glide()
+        public void Glide(int deccel)
         {
-            this.CurrentFlyingSpeed -= this.FlySpeed;
+            this.CurrentFlyingSpeed -= deccel;
         }
 
         public void IncreaseSpeed(int accel)
         {
-            this.MaxSpeed += accel * 2;
+            this.MaxSpeed += accel;
         }
     }
 }

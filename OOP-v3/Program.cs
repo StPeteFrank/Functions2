@@ -44,6 +44,10 @@ namespace OOP_v3
             army.ForEach(fighter => fighter.Attack());
             //
             var pegasus1 = new Pegasus(40, 30);
+            pegasus1.IncreaseSpeed(20);
+            pegasus1.DecreaseSpeed(10);
+            pegasus1.FlapWings(10);
+            pegasus1.Glide(5);
             Console.WriteLine(pegasus1);
 
             Console.ReadLine();
