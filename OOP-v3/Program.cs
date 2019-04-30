@@ -53,10 +53,10 @@ namespace OOP_v3
             var car1 = new Car("Volks", "GTI", 210, 25000);
             car1.IncreaseHP(50);
             car1.DecreaseHP(20);
-            car1.IncreaseValue(5000);
+            car1.IncreaseValue(6000);
             car1.DecreaseValue(1000);
             Console.WriteLine(car1);
-
+            //
             Console.ReadLine();
         }
     }
