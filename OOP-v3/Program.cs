@@ -57,6 +57,11 @@ namespace OOP_v3
             car1.DecreaseValue(1000);
             Console.WriteLine(car1);
             //
+            var sportsCar1 = new SportsCar();    //I WANT TO CREATE SPORTSCAR OBJECTS
+            sportsCar1.IncreaseHP(50);          //I WANT TO CALL THESE METHODS AND PASS IN VALUES
+            sportsCar1.IncreaseValue(5000);
+            //
+
             Console.ReadLine();
         }
     }
