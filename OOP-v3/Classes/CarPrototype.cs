@@ -10,8 +10,11 @@ namespace OOP_v3.Classes
     //trucks increase hp and decrease value
     //sedans decrease hp and decrease value
 
+    //Store showroom cars in a data strcuture that allows for reuse in creating objects.
 
-    public class CarPrototype
+
+
+    public abstract class CarPrototype   //Make it abstract first.
     {
         public string Make { get; set; }   //Set the properties.
         public string Model { get; set; }
