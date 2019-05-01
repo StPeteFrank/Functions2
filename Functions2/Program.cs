@@ -17,7 +17,10 @@ namespace Functions2
             Console.WriteLine(new SquareSumArray().SquareSum(new int[] { 2, 4, 5 }));
             Console.WriteLine(new RemoveString().RemoveIt(new string("!Remov!ing th!e exclamation poi!nts!!!!")));
             Console.WriteLine(new CorrectString().CorrectIt(new string ("1 HAVE S0 MANY 515TERS.")));
-            Console.WriteLine(new SumNestedForLoop().NestedLoop(new int[][] { new int[] { 2, 4, 6 }, new int[] { 3, 5, 7 }}));
+            //Console.WriteLine(new SumNestedForLoop().NestedLoop(new int[][] { new int[] { 2, 4, 6 }, new int[] { 3, 5, 7 }}));
+
+
+            Console.WriteLine(new SumNestedForLoop().NestedLoop(new int[][] { new int[] { 2, 4, 6 }, new int[] { 3, 5, 7 } }));
                 
 
             Console.ReadLine();
