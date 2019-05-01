@@ -11,6 +11,7 @@ namespace Functions2
             Console.WriteLine(new SmallestInArray().Smallest(new int[] { 2, -10, 10, 0, -9, 16, -7 }));
             Console.WriteLine(new SumArrayForLoop().SumArray(new int[] { 100, 200, 300, 400 }));
             Console.WriteLine(new MultiplyArrayForLoop().MultiplyArray(new int[] { 1, 2, 3, 4 }));
+            Console.WriteLine(new AggregateStringTest().AggregateString(new string[] { "C#.net", "HTML", "CSS", "ReactJS"}));
             Console.WriteLine(new SumOddArrayForLoop().SumOddArray(new int[] { 2, 0, 5, 10, 7, 3, -7 }));
             Console.WriteLine(new SumArrayForEach().SumForEach(new int[] { 200, 400, 600, 800 }));
             Console.WriteLine(new SquareSumArray().SquareSum(new int[] { 2, 4, 5 }));
