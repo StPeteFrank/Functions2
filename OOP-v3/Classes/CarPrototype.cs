@@ -21,8 +21,10 @@ namespace OOP_v3.Classes
         public int HorsePower { get; set; }
         public int CarValue { get; set; }
 
-        public void IncreaseHP(int increase)      //Methods that accept parameteres:
-        {
+        
+
+        /*public void IncreaseHP(int increase)      
+        {                                          //DO THESE METHODS BELONG HERE OR IN ICUSTOMPARTS
             this.HorsePower += increase;
         }
 
@@ -39,21 +41,26 @@ namespace OOP_v3.Classes
         public void DecreaseValue(int decrease)
         {
             this.CarValue -= decrease;
-        }
+        }*/
 
 
         public ICustomParts CustomParts { get; set; }  // Dependent on CustomParts
 
-        public CarPrototype(ICustomParts customParts)  //Constructor
+     
+
+        public CarPrototype(string make, ICustomParts customParts) //Constructor
         {
             this.CustomParts = customParts;
+            this.Make = make;
+
+
         }
         public void BuildCar()
         {
-            this.CustomParts.DecreaseHP(int decrease);
-            this.CustomParts.DecreaseValue();
-            this.CustomParts.IncreaseHP();
-            this.CustomParts.IncreaseValue();
+            this.CustomParts.DecreaseHP(10);
+            this.CustomParts.DecreaseValue(32);
+            this.CustomParts.IncreaseHP(11);
+            this.CustomParts.IncreaseValue(-12);
         }
     }
 }

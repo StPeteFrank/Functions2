@@ -13,7 +13,7 @@ namespace OOP_v3.Classes
 
         public IWeapon Weapon { get; set; }
 
-        public Warrior(IWeapon weapon)    //Constructor for Warrior Abstract Parent.
+        public Warrior(IWeapon weapon)    
         {
             this.Weapon = weapon;
         }

@@ -27,14 +27,14 @@ namespace OOP_v3
             horse2.Eat();
             horse2.ShoeMyHorse();
             //
-            var Betsy = new Cow {Name = "Betsy" };
+            var Betsy = new Cow { Name = "Betsy" };
             Betsy.Speak();
             Betsy.Eat();
             Betsy.GiveMilk();
             //
             var lancelot = new Knight();
             var legolas = new Archer();
-            var merlin = new Wizard();        
+            var merlin = new Wizard();
             //
             var army = new List<Warrior>();
             army.Add(lancelot);
@@ -57,9 +57,13 @@ namespace OOP_v3
             car1.DecreaseValue(1000);
             Console.WriteLine(car1);
             //
-            var sportsCar1 = new SportsCar();    //I WANT TO CREATE SPORTSCAR OBJECTS
-            sportsCar1.IncreaseHP(50);          //I WANT TO CALL THESE METHODS AND PASS IN VALUES
-            sportsCar1.IncreaseValue(5000);
+            var sportsCar1 = new SportsCar("porsche");    //I WANT TO CREATE SPORTSCAR OBJECTS  //I SHOULD BE ABLE TO PASS IN ARGS TO SPORTSCAR'S PROPS.
+            sportsCar1.CustomParts.IncreaseHP(50);          //I WANT TO CALL THESE METHODS AND PASS IN VALUES
+            sportsCar1.CustomParts.IncreaseValue(5000);
+
+
+            sportsCar1.IncreaseHpToSportCarLevels();
+            Console.WriteLine(sportsCar1);
             //
 
             Console.ReadLine();
