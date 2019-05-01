@@ -4,15 +4,15 @@ using System.Text;
 
 namespace Functions2.Classes
 {
-    /*public class CorrectString
+    public class CorrectString
     {
         public string CorrectIt(string a)
         {
             return a.Replace("0", "O").Replace("1", "I").Replace("5", "S");
         }
-    }*/
+    }
 
-    public class CorrectString
+    /*public class CorrectString
     {
         public string CorrectIt(string a)
         {
@@ -24,6 +24,6 @@ namespace Functions2.Classes
             }
             return a;
         }
-    }
+    }*/
 
 }
