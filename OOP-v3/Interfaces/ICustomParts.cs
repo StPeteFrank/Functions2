@@ -6,10 +6,10 @@ namespace OOP_v3.Classes
 {
     //RacingPackage, TowingPackage, EconomyPackage
 
-    public interface ICustomParts  //Give it method(s).
+    public interface ICustomParts  
     {
-        int HorsePower { get; set; }             //DOES CUSTOM PARTS NEED THESE PROPERTIES??
-        int CarValue { get; set; }
+       /* int HorsePower { get; set; }             //DOES CUSTOM PARTS NEED THESE PROPERTIES??
+        int CarValue { get; set; }*/
 
         void IncreaseHP(int icrease);      
         void DecreaseHP(int decrease);      
@@ -24,7 +24,7 @@ namespace OOP_v3.Classes
 
         public void DecreaseHP(int decrease)
         {
-            this.HorsePower -= decrease;
+           this.HorsePower -= decrease;
         }
 
         public void DecreaseValue(int decrease)
@@ -34,12 +34,12 @@ namespace OOP_v3.Classes
 
         public void IncreaseHP(int increase)
         {
-            this.HorsePower += increase;
+           this.HorsePower += increase;
         }
 
         public void IncreaseValue(int increase)
         {
-            this.CarValue += increase;
+           this.CarValue += increase;
         }
     }
 

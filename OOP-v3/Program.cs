@@ -57,8 +57,8 @@ namespace OOP_v3
             car1.DecreaseValue(1000);
             Console.WriteLine(car1);
             //
-            var sportsCar1 = new SportsCar("porsche");    //I WANT TO CREATE SPORTSCAR OBJECTS  //I SHOULD BE ABLE TO PASS IN ARGS TO SPORTSCAR'S PROPS.
-            sportsCar1.CustomParts.IncreaseHP(50);          //I WANT TO CALL THESE METHODS AND PASS IN VALUES
+            var sportsCar1 = new SportsCar("Porsche", "911", 350, 90000);   
+            sportsCar1.IncreaseHP(50);                           
             sportsCar1.CustomParts.IncreaseValue(5000);
 
 

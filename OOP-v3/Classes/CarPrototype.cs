@@ -21,45 +21,23 @@ namespace OOP_v3.Classes
         public int HorsePower { get; set; }
         public int CarValue { get; set; }
 
-        
-
-        /*public void IncreaseHP(int increase)      
-        {                                          //DO THESE METHODS BELONG HERE OR IN ICUSTOMPARTS
-            this.HorsePower += increase;
-        }
-
-        public void DecreaseHP(int decrease)
-        {
-            this.HorsePower -= decrease;
-        }
-
-        public void IncreaseValue(int increase)
-        {
-            this.CarValue += increase;
-        }
-
-        public void DecreaseValue(int decrease)
-        {
-            this.CarValue -= decrease;
-        }*/
-
-
         public ICustomParts CustomParts { get; set; }  // Dependent on CustomParts
 
-     
-
-        public CarPrototype(string make, ICustomParts customParts) //Constructor
+        public CarPrototype(string make, string model, int horsePower, int value, ICustomParts customParts) //Constructor
         {
             this.CustomParts = customParts;
             this.Make = make;
+            this.Model = model;
+            this.HorsePower = horsePower;
+            this.CarValue = value;
 
 
         }
         public void BuildCar()
         {
-            this.CustomParts.DecreaseHP(10);
+            this.CustomParts.DecreaseHP(50);
             this.CustomParts.DecreaseValue(32);
-            this.CustomParts.IncreaseHP(11);
+            this.CustomParts.IncreaseHP(12);
             this.CustomParts.IncreaseValue(-12);
         }
     }
