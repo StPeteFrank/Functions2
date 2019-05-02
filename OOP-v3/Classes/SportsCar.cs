@@ -13,7 +13,7 @@ namespace OOP_v3.Classes
 
         public void IncreaseHpToSportCarLevels()
         {
-            this.CustomParts.IncreaseHP(100);
+            this.CustomParts.IncreaseHP(1000);
         }
 
       

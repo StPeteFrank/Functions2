@@ -35,10 +35,10 @@ namespace OOP_v3.Classes
         }
         public void BuildCar()
         {
-            this.CustomParts.DecreaseHP(50);
-            this.CustomParts.DecreaseValue(32);
-            this.CustomParts.IncreaseHP(12);
-            this.CustomParts.IncreaseValue(-12);
+            this.CustomParts.DecreaseHP(20);
+            this.CustomParts.DecreaseValue(20);
+            this.CustomParts.IncreaseHP(20);
+            this.CustomParts.IncreaseValue(20);
         }
     }
 }

@@ -59,7 +59,7 @@ namespace OOP_v3
             //
             var sportsCar1 = new SportsCar("Porsche", "911", 350, 90000);   
             sportsCar1.IncreaseHP(50);                           
-            sportsCar1.CustomParts.IncreaseValue(5000);
+            sportsCar1.CustomParts.IncreaseValue(20);
 
 
             sportsCar1.IncreaseHpToSportCarLevels();
