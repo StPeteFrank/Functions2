@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanyPieShop", "BethanyPieShop\BethanyPieShop.csproj", "{0E5BEE97-00D9-40FD-B020-E26396F03D37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanyPieShop", "BethanyPieShop\BethanyPieShop.csproj", "{D6956C99-89B1-4D6A-AC9A-CBFDD9ADFAB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0E5BEE97-00D9-40FD-B020-E26396F03D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E5BEE97-00D9-40FD-B020-E26396F03D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E5BEE97-00D9-40FD-B020-E26396F03D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E5BEE97-00D9-40FD-B020-E26396F03D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6956C99-89B1-4D6A-AC9A-CBFDD9ADFAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6956C99-89B1-4D6A-AC9A-CBFDD9ADFAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6956C99-89B1-4D6A-AC9A-CBFDD9ADFAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6956C99-89B1-4D6A-AC9A-CBFDD9ADFAB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E5896245-4A7B-438C-8B58-B63B8B4E60E2}
+		SolutionGuid = {497AC61B-56EE-488C-8323-7A6D62573AD7}
 	EndGlobalSection
 EndGlobal
