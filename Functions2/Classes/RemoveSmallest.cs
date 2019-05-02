@@ -9,7 +9,7 @@ namespace Functions2.Classes
     {
         public List<int> Remover(List<int> numbers)
         {
-            numbers.Remove(numbers.DefaultIfEmpty().Min());
+            numbers.Remove(numbers.Min());
             return numbers;
         }
     }
