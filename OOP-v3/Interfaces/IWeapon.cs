@@ -8,6 +8,21 @@ namespace OOP_v3.Classes
     {
         void DoDamage();
     }
+    public class AR15 : IWeapon
+    {
+        public void DoDamage()
+        {
+            Console.WriteLine("Fires their rifle.");
+        }
+    }
+    public class GrenadeLauncher : IWeapon
+    {
+        public void DoDamage()
+        {
+            Console.WriteLine("Fires grenades.");
+        }
+    }
+
 
     public class Sword : IWeapon
     {

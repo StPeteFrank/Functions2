@@ -35,6 +35,14 @@ namespace OOP_v3
             var lancelot = new Knight();
             var legolas = new Archer();
             var merlin = new Wizard();
+            var sgtPatton = new RifleSoldier();
+            var pvtGump = new GrenadierSoldier();
+            //
+            var modernArmy = new List<Soldier>();
+            modernArmy.Add(sgtPatton);
+            modernArmy.Add(pvtGump);
+
+            modernArmy.ForEach(fighter => fighter.Attack());
             //
             var army = new List<Warrior>();
             army.Add(lancelot);
