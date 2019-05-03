@@ -10,7 +10,7 @@ namespace Functions2.Classes
         public int NestedLoop(int [][] a)
         {
             int sum = 0;
-            for (int i = 0; i < a.Length; i++)
+            for(int i = 0; i < a.Length; i++)
             {
                 for(int j = 0; j < a[i].Length; j++)
                 {
