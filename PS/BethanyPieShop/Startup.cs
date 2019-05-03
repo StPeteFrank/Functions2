@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using BethanyPieShop.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Routing;
 
 namespace BethanyPieShop
 {
@@ -38,7 +39,14 @@ namespace BethanyPieShop
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
-            app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name:"default",
+                    template: "{controller=Home}/{action=Index}/{id?}"
+                    );
+            }
+            );
         }
     }
 }
