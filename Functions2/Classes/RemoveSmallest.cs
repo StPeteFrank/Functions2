@@ -7,7 +7,7 @@ namespace Functions2.Classes
 {
     public class RemoveSmallest
     {
-        public List<int> Remover(List<int> numbers)
+        public List<int> Remover(List<int> numbers)   //Need help on how to output numbers in console.
         {
             numbers.Remove(numbers.Min());
             return numbers;
@@ -22,6 +22,5 @@ namespace Functions2.Classes
             return numbers;
         }
     }*/
-
 
 }
