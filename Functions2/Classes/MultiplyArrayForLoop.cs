@@ -24,12 +24,5 @@ namespace Functions2.Classes
             return a.Aggregate((b, c) => b * c);
         }
     }
-    /*public class MultiplyArrayForLoop
-    {
-        public int MultiplyArray(int [] a)
-        {
-            return a.Aggregate((b, c) => b * c);
-        }
-    }*/
 
 }

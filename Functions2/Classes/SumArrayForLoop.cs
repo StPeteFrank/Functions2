@@ -24,5 +24,7 @@ namespace Functions2
             return a.Sum();
         }
     }
+
+    //.Sum(),.Min(),.Max(),.Count(),.Average() average needs to be double.
     
 }
