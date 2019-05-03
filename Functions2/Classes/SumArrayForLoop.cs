@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Functions2
 {
-    public class SumArrayForLoop
+    /*public class SumArrayForLoop
     {
         public int SumArray(int [] a)
         {
@@ -16,13 +16,13 @@ namespace Functions2
             }
             return sum;
         }
-    }
-    /*public class SumArrayForLoop
+    }*/
+    public class SumArrayForLoop
     {
         public int SumArray(int [] a)
         {
             return a.Sum();
         }
     }
-    */
+    
 }

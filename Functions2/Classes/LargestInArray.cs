@@ -10,9 +10,9 @@ namespace Functions2.Classes
         public int Largest(int [] a)
         {
             int b = a[0];
-            for (int i = 0; i < a.Length; i++)
+            for (int i = 1; i < a.Length; i++)
             {
-                if (b < a[i])
+                if( b < a[i])
                 {
                     b = a[i];
                 }
@@ -21,7 +21,7 @@ namespace Functions2.Classes
         }
     }
 
-   /* public class LargestInArray
+    /*public class LargestInArray
     {
         public int Largest(int[] a)
         {
