@@ -9,7 +9,7 @@ namespace Functions2.Classes
     {
         public string AggregateString(string [] a)
         {
-            return a.Aggregate((b, c) => b + " " + c);
+            return a.Aggregate((e, f) => e + " " + f);
         }
     }
 }
