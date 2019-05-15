@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GradeBook5
+namespace GradeBook2
 {
     class Program
     {
