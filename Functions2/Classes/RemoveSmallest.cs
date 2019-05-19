@@ -14,12 +14,13 @@ namespace Functions2.Classes
         }
     }
 
+
    /* public class RemoveSmallest
     {
         public List<int> Remover(List<int> numbers)
         {
             numbers.Remove(numbers.DefaultIfEmpty().Min());
-            return numbers;
+            return numbers.ToList();
         }
     }*/
 

@@ -21,21 +21,6 @@ namespace Functions2.Classes
         }
     }
 
-    /*public class SumNestedForLoop
-    {
-        public int NestedLoop(int [][] a)
-        {
-            int m = 1;
-            for(int i = 0; i < a.Length; i++)
-            {
-                for(int j = 0; j < a[i].Length; j++)
-                {
-                    m *= a[i][j];
-                }
-            }
-            return m;
-        }
-    }*/
  
 }
 
